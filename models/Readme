@@ -1,0 +1,1 @@
+S2S_TAtt -- RNN Encoder-Decoder, inputs are first flattened, temporal attention is added

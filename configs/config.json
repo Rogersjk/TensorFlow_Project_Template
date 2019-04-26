@@ -1,0 +1,28 @@
+{
+  "model_name": "SepRank",
+
+  "timestamps_one_day": 24,
+  "prediction_steps": 4,
+  "len_closeness": 8,
+  "len_period": 0,
+  "num_hidden": 256,
+  "attention_size": 64,
+  "dataset": "BikeNYC",
+  "BikeNYC_File": "../data/BikeNYC/NYC14_M16x8_T60_NewEnd.tf.h5",
+  "TaxiBJ_File": "../data/TaxiBJ/BJ16_M32x32_T30_InOut.h5",
+
+  "num_epochs": 500,
+  "early_stopping": 20,
+  "learning_rate":3e-4 ,
+
+  "activation": "relu",
+  "optimizer": "Adam",
+  "params": "",
+  "normalize": "std",
+
+  "batch_size": 64,
+  "shuffle_buffer_size": 1000,
+  "prefetch_buffer_size": 1,
+  "drop_batch_remainder": true
+
+}
